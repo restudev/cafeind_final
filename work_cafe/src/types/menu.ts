@@ -10,7 +10,7 @@ export interface MenuItem {
 
 export const menuCategories = ["Select", "Coffee & Beverage", "Brunch & Meal", "Bakery & Pastry"];
 
-export const API_BASE_URL = "http://localhost/cafeind_api/api";
+export const API_BASE_URL = "https://cafeind.my.id/cafeind_api/api";
 export interface Cafe {
   id: number;
   name: string;

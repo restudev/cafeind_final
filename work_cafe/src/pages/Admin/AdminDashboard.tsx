@@ -134,7 +134,7 @@ const Dashboard: React.FC = () => {
 
         // Fetch cafes
         const cafeResponse = await fetch(
-          "http://localhost/cafeind_api/api/get_cafes.php"
+          "https://cafeind.my.id/cafeind_api/api/get_cafes.php"
         );
         if (!cafeResponse.ok) {
           throw new Error(`HTTP error! Status: ${cafeResponse.status}`);
@@ -148,7 +148,7 @@ const Dashboard: React.FC = () => {
         let cafeRequestsData: CafeRequestData[] = [];
         try {
           const requestsResponse = await fetch(
-            "http://localhost/cafeind_api/api/get_cafe_requests.php"
+            "https://cafeind.my.id/cafeind_api/api/get_cafe_requests.php"
           );
           if (requestsResponse.ok) {
             const requestsResult =
@@ -168,7 +168,7 @@ const Dashboard: React.FC = () => {
             let promoData: Promotion[] = [];
             try {
               const promoResponse = await fetch(
-                `http://localhost/cafeind_api/api/get_promotions.php?cafe_id=${cafe.id}`
+                `https://cafeind.my.id/cafeind_api/api/get_promotions.php?cafe_id=${cafe.id}`
               );
               if (!promoResponse.ok) {
                 throw new Error(`HTTP error! Status: ${promoResponse.status}`);

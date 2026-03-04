@@ -94,7 +94,7 @@ const CafeFilter = ({
     const fetchFilterMetadata = async () => {
       try {
         console.log("Fetching filter metadata...");
-        const response = await fetch('http://localhost/cafeind_api/api/get_cafes.php');
+        const response = await fetch('https://cafeind.my.id/cafeind_api/api/get_cafes.php');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const result = await response.json();
         console.log("Metadata response:", result.metadata);

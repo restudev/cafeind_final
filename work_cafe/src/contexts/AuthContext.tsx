@@ -80,7 +80,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
       console.log("Attempting login for:", email);
 
-      const response = await fetch("http://localhost/cafeind_api/api/login.php", {
+      const response = await fetch("https://cafeind.my.id/cafeind_api/api/login.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

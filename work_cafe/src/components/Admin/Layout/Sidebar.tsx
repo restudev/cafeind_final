@@ -287,7 +287,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isSidebarOpen, toggleSidebar }) => {
 
         // Fetch cafes
         const cafeResponse = await fetch(
-          "http://localhost/cafeind_api/api/get_cafes.php"
+          "https://cafeind.my.id/cafeind_api/api/get_cafes.php"
         );
         
         if (!cafeResponse.ok) {
@@ -309,7 +309,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isSidebarOpen, toggleSidebar }) => {
         for (const cafe of cafes) {
           try {
             const promoResponse = await fetch(
-              `http://localhost/cafeind_api/api/get_promotions.php?cafe_id=${cafe.id}`
+              `https://cafeind.my.id/cafeind_api/api/get_promotions.php?cafe_id=${cafe.id}`
             );
             
             if (promoResponse.ok) {
@@ -328,7 +328,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isSidebarOpen, toggleSidebar }) => {
 
         // Fetch pending cafe requests
         const requestResponse = await fetch(
-          "http://localhost/cafeind_api/api/get_cafe_requests.php"
+          "https://cafeind.my.id/cafeind_api/api/get_cafe_requests.php"
         );
 
         if (!requestResponse.ok) {

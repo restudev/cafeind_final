@@ -112,7 +112,7 @@ export const allAmenities = [
   "Prayer Room",
 ];
 export const validIcons = ["coffee", "book", "laptop"];
-export const API_BASE_URL = "http://localhost/cafeind_api/api";
+export const API_BASE_URL = "https://cafeind.my.id/cafeind_api/api";
 
 export interface Promotion {
   id: number;

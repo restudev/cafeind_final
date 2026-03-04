@@ -113,7 +113,7 @@ const CafeList: React.FC = () => {
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 5000);
 
-        const response = await fetch("http://localhost/cafeind_api/api/get_cafe.php", {
+        const response = await fetch("https://cafeind.my.id/cafeind_api/api/get_cafe.php", {
           signal: controller.signal,
           headers: { Accept: "application/json" },
         });
@@ -239,7 +239,7 @@ const CafeList: React.FC = () => {
     setIsDeleting(true);
     try {
       if (deleteTarget.isBulk) {
-        const response = await fetch("http://localhost/cafeind_api/api/delete_cafes.php", {
+        const response = await fetch("https://cafeind.my.id/cafeind_api/api/delete_cafes.php", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ ids: selectedCafes }),
@@ -253,7 +253,7 @@ const CafeList: React.FC = () => {
           throw new Error(result.message || "Failed to delete cafes");
         }
       } else if (deleteTarget.id) {
-        const response = await fetch(`http://localhost/cafeind_api/api/delete_cafe.php?id=${deleteTarget.id}`, {
+        const response = await fetch(`https://cafeind.my.id/cafeind_api/api/delete_cafe.php?id=${deleteTarget.id}`, {
           method: "DELETE",
         });
         const result = await response.json();

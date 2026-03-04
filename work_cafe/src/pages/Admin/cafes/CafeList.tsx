@@ -148,7 +148,7 @@ const CafeList: React.FC = () => {
     const fetchAreas = async () => {
       try {
         const response = await fetch(
-          "http://localhost/cafeind_api/api/get_areas.php"
+          "https://cafeind.my.id/cafeind_api/api/get_areas.php"
         );
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
@@ -169,7 +169,7 @@ const CafeList: React.FC = () => {
       try {
         setLoading(true);
         const response = await fetch(
-          "http://localhost/cafeind_api/api/get_cafes.php"
+          "https://cafeind.my.id/cafeind_api/api/get_cafes.php"
         );
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
@@ -310,7 +310,7 @@ const CafeList: React.FC = () => {
     try {
       if (deleteTarget.isBulk) {
         const response = await fetch(
-          "http://localhost/cafeind_api/api/delete_cafes.php",
+          "https://cafeind.my.id/cafeind_api/api/delete_cafes.php",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -326,7 +326,7 @@ const CafeList: React.FC = () => {
         }
       } else if (deleteTarget.id) {
         const response = await fetch(
-          `http://localhost/cafeind_api/api/delete_cafe.php?id=${deleteTarget.id}`,
+          `https://cafeind.my.id/cafeind_api/api/delete_cafe.php?id=${deleteTarget.id}`,
           {
             method: "DELETE",
           }

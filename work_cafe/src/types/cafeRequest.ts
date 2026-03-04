@@ -27,4 +27,4 @@ export interface CafeRequest {
   reviewed_by?: string;
 }
 
-export const API_BASE_URL = "http://localhost/cafeind_api/api";
+export const API_BASE_URL = "https://cafeind.my.id/cafeind_api/api";

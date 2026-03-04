@@ -18,7 +18,7 @@ const CafeCard: React.FC<CafeCardProps> = ({ cafe, index }) => {
   useEffect(() => {
     const fetchPromos = async () => {
       try {
-        const response = await fetch(`http://localhost/CAFEIND_API/api/get_promotions.php?cafe_id=${cafe.id}`);
+        const response = await fetch(`https://cafeind.my.id/CAFEIND_API/api/get_promotions.php?cafe_id=${cafe.id}`);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }

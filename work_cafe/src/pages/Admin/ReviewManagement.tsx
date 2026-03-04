@@ -20,7 +20,7 @@ import {
 import AdminLayout from "../../components/Admin/Layout/AdminLayout";
 
 // API Configuration
-const API_BASE_URL = "http://localhost/cafeind_api/api/reviews";
+const API_BASE_URL = "https://cafeind.my.id/cafeind_api/api/reviews";
 
 // Types
 interface Review {

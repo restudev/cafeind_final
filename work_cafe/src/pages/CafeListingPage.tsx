@@ -30,7 +30,7 @@
 //     const fetchCafes = async () => {
 //       try {
 //         const response = await fetch(
-//           "http://localhost/cafeind_api/api/get_cafes.php"
+//           "https://cafeind.my.id/cafeind_api/api/get_cafes.php"
 //         );
 //         if (!response.ok) {
 //           throw new Error(`HTTP error! status: ${response.status}`);
@@ -323,7 +323,7 @@ const CafeListingPage: React.FC = () => {
     const fetchCafes = async () => {
       try {
         const response = await fetch(
-          "http://localhost/cafeind_api/api/get_cafes.php"
+          "https://cafeind.my.id/cafeind_api/api/get_cafes.php"
         );
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);

@@ -78,4 +78,4 @@ export const DEFAULT_TAGS = [
   '24 Hours',
 ];
 
-export const API_BASE_URL = 'http://localhost/cafeind_api/api';
+export const API_BASE_URL = 'https://cafeind.my.id/cafeind_api/api';

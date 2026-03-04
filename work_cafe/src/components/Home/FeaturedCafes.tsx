@@ -19,7 +19,7 @@ const FeaturedCafes: React.FC = () => {
   useEffect(() => {
     const fetchTopCafes = async () => {
       try {
-        const response = await fetch('http://localhost/CAFEIND_API/api/get_cafes.php?top=3');
+        const response = await fetch('https://cafeind.my.id/CAFEIND_API/api/get_cafes.php?top=3');
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }

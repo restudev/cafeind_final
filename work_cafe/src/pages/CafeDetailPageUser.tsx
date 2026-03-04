@@ -18,7 +18,7 @@ import { FaUser } from "react-icons/fa";
 import { ChatBubbleLeftIcon } from "@heroicons/react/24/solid";
 
 // API base URL
-const API_BASE_URL = "http://localhost/cafeind_api/api";
+const API_BASE_URL = "https://cafeind.my.id/cafeind_api/api";
 
 // ReCAPTCHA site key
 const ReCAPTCHA_SITE_KEY = "6LfStDwrAAAAAMwl651B96VxGL6PlSaGdZiTZGNf";
