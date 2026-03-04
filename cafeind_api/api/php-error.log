@@ -1,0 +1,20 @@
+[01-Jun-2025 19:16:11 Europe/Berlin] PHP Warning:  require_once(db_connect.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\cafeind_api\api\add_cafe.php on line 13
+[01-Jun-2025 19:16:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'db_connect.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\cafeind_api\api\add_cafe.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cafeind_api\api\add_cafe.php on line 13
+[01-Jun-2025 19:16:12 Europe/Berlin] PHP Warning:  require_once(db_connect.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\cafeind_api\api\add_cafe.php on line 13
+[01-Jun-2025 19:16:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'db_connect.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\cafeind_api\api\add_cafe.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cafeind_api\api\add_cafe.php on line 13
+[01-Jun-2025 19:16:13 Europe/Berlin] PHP Warning:  require_once(db_connect.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\cafeind_api\api\add_cafe.php on line 13
+[01-Jun-2025 19:16:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'db_connect.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\cafeind_api\api\add_cafe.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cafeind_api\api\add_cafe.php on line 13
+[01-Jun-2025 19:16:37 Europe/Berlin] PHP Warning:  require_once(db_connect.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\cafeind_api\api\add_cafe.php on line 13
+[01-Jun-2025 19:16:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'db_connect.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\cafeind_api\api\add_cafe.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cafeind_api\api\add_cafe.php on line 13

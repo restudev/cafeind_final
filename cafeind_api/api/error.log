@@ -1,0 +1,741 @@
+[31-May-2025 09:55:47 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'field list'
+[31-May-2025 10:04:01 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list'
+[31-May-2025 10:04:12 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list'
+[31-May-2025 10:05:07 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list'
+[31-May-2025 10:23:56 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list'
+[31-May-2025 10:24:46 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list'
+[31-May-2025 10:25:03 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list'
+[31-May-2025 10:27:14 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list'
+[31-May-2025 10:29:24 Europe/Berlin] General Error: Cafe not found with ID: 0 in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 239
+[31-May-2025 10:29:36 Europe/Berlin] General Error: Cafe not found with ID: 0 in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 239
+[31-May-2025 10:39:28 Europe/Berlin] Invalid cafe_id received: cafe-1
+[31-May-2025 10:41:03 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 230
+[31-May-2025 10:41:28 Europe/Berlin] Invalid cafe_id received: cafe-1
+[31-May-2025 15:49:44 Europe/Berlin] Invalid cafe_id received: cafe-1
+[31-May-2025 15:49:50 Europe/Berlin] Invalid cafe_id received: cafe-1
+[31-May-2025 15:57:22 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 248
+[31-May-2025 15:57:27 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 248
+[31-May-2025 16:11:48 Europe/Berlin] Invalid cafe_id received: 1
+[31-May-2025 16:12:44 Europe/Berlin] Invalid cafe_id received: 1
+[01-Jun-2025 15:26:10 Europe/Berlin] Invalid cafe_id received: 1
+[01-Jun-2025 15:42:11 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list' in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 257
+[01-Jun-2025 15:42:22 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list' in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 257
+[01-Jun-2025 16:06:38 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list' in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 253
+[01-Jun-2025 16:06:41 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'images' in 'field list' in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 253
+[02-Jun-2025 00:09:09 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'promo' in 'field list'
+[02-Jun-2025 00:09:19 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'promo' in 'field list'
+[02-Jun-2025 00:09:27 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'promo' in 'field list'
+[02-Jun-2025 00:14:03 Europe/Berlin] PHP Warning:  Undefined array key "validUntil" in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 216
+[02-Jun-2025 00:14:03 Europe/Berlin] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valid_until' cannot be null
+[02-Jun-2025 00:14:12 Europe/Berlin] PHP Warning:  Undefined array key "validUntil" in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 216
+[02-Jun-2025 00:14:12 Europe/Berlin] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valid_until' cannot be null
+[02-Jun-2025 00:15:17 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => blob:http://localhost:5173/9ffe5d76-f23d-46b5-81ba-4f758af683f1
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":"promo-2","title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","valid_until":"2025-05-20","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:15:17 Europe/Berlin] Processing image: Array
+(
+    [name] => fruits.png
+    [type] => image/png
+    [tmp_name] => C:\xampp\tmp\phpF95.tmp
+    [error] => 0
+    [size] => 343208
+)
+
+[02-Jun-2025 00:15:17 Europe/Berlin] Executing update query with params: Array
+(
+    [:cafe_id] => 1
+    [:name] => KOV Koffiesssssssssssss000oojhj
+    [:address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [:area] => Gayamsari
+    [:description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [:image_url] => /uploads/cafe_683cd0f5082809.16496044.png
+    [:price_range] => 1
+    [:noise_level] => Quiet
+    [:avg_visit_length] => 3-5 hours
+    [:opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [:featured] => 1
+    [:menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [:website] => 
+    [:link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [:instagram] => 
+    [:amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [:tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+)
+
+[02-Jun-2025 00:15:17 Europe/Berlin] PHP Warning:  Undefined array key "validUntil" in C:\xampp\htdocs\cafeind_api\api\update_cafe.php on line 231
+[02-Jun-2025 00:15:17 Europe/Berlin] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valid_until' cannot be null
+Trace: #0 C:\xampp\htdocs\cafeind_api\api\update_cafe.php(226): PDOStatement->execute(Array)
+#1 {main}
+[02-Jun-2025 00:19:22 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => https://via.placeholder.com/300x200?text=KOV+Koffie+1
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":"promo-1","title":"Work From KOV","description":"Get 20% off on coffee and snacks when you work at KOV Koffie for 4+ hours!","validUntil":"2025-05-25","icon":"laptop"},{"id":"promo-2","title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","validUntil":"2025-05-20","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:19:22 Europe/Berlin] Processing image: Array
+(
+    [name] => fruits.png
+    [type] => image/png
+    [tmp_name] => C:\xampp\tmp\phpCCFC.tmp
+    [error] => 0
+    [size] => 343208
+)
+
+[02-Jun-2025 00:19:22 Europe/Berlin] Executing update query with params: Array
+(
+    [:cafe_id] => 1
+    [:name] => KOV Koffiesssssssssssss000oojhj
+    [:address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [:area] => Gayamsari
+    [:description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [:image_url] => /uploads/cafe_683cd1ea170622.68542239.png
+    [:price_range] => 1
+    [:noise_level] => Quiet
+    [:avg_visit_length] => 3-5 hours
+    [:opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [:featured] => 1
+    [:menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [:website] => 
+    [:link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [:instagram] => 
+    [:amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [:tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+)
+
+[02-Jun-2025 00:19:33 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => fruits.png
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":"promo-1","title":"Work From KOV","description":"Get 20% off on coffee and snacks when you work at KOV Koffie for 4+ hours!","validUntil":"2025-05-25","icon":"laptop"},{"id":"promo-2","title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","validUntil":"2025-05-20","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:19:33 Europe/Berlin] Processing image: Array
+(
+    [name] => fruits.png
+    [type] => image/png
+    [tmp_name] => C:\xampp\tmp\phpFAA4.tmp
+    [error] => 0
+    [size] => 343208
+)
+
+[02-Jun-2025 00:19:33 Europe/Berlin] Executing update query with params: Array
+(
+    [:cafe_id] => 1
+    [:name] => KOV Koffiesssssssssssss000oojhj
+    [:address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [:area] => Gayamsari
+    [:description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [:image_url] => /uploads/cafe_683cd1f5be5a08.12523177.png
+    [:price_range] => 1
+    [:noise_level] => Quiet
+    [:avg_visit_length] => 3-5 hours
+    [:opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [:featured] => 1
+    [:menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [:website] => 
+    [:link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [:instagram] => 
+    [:amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [:tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+)
+
+[02-Jun-2025 00:19:45 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => https://via.placeholder.com/300x200?text=KOV+Koffie+1
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":"promo-2","title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","validUntil":"2025-05-20","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:19:45 Europe/Berlin] Executing update query with params: Array
+(
+    [:cafe_id] => 1
+    [:name] => KOV Koffiesssssssssssss000oojhj
+    [:address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [:area] => Gayamsari
+    [:description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [:image_url] => https://via.placeholder.com/300x200?text=KOV+Koffie+1
+    [:price_range] => 1
+    [:noise_level] => Quiet
+    [:avg_visit_length] => 3-5 hours
+    [:opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [:featured] => 1
+    [:menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [:website] => 
+    [:link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [:instagram] => 
+    [:amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [:tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+)
+
+[02-Jun-2025 00:20:08 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => mnist1.png
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":"promo-2","title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","validUntil":"2025-05-20","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:20:08 Europe/Berlin] Processing image: Array
+(
+    [name] => mnist1.png
+    [type] => image/png
+    [tmp_name] => C:\xampp\tmp\php83F9.tmp
+    [error] => 0
+    [size] => 135121
+)
+
+[02-Jun-2025 00:20:08 Europe/Berlin] Executing update query with params: Array
+(
+    [:cafe_id] => 1
+    [:name] => KOV Koffiesssssssssssss000oojhj
+    [:address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [:area] => Gayamsari
+    [:description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [:image_url] => /uploads/cafe_683cd218e3e463.09926784.png
+    [:price_range] => 1
+    [:noise_level] => Quiet
+    [:avg_visit_length] => 3-5 hours
+    [:opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [:featured] => 1
+    [:menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [:website] => 
+    [:link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [:instagram] => 
+    [:amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [:tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+)
+
+[02-Jun-2025 00:21:05 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => https://via.placeholder.com/300x200?text=KOV+Koffie+1
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":"promo-2","title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","validUntil":"2025-05-20","icon":"coffee"},{"id":"promo-1748816458183","title":"New Promotion","description":"Promotion description goes here","validUntil":"2025-07-01","icon":"laptop","bgColor":"bg-gradient-to-r from-orange-500 to-red-500"}]
+)
+
+[02-Jun-2025 00:21:05 Europe/Berlin] Executing update query with params: Array
+(
+    [:cafe_id] => 1
+    [:name] => KOV Koffiesssssssssssss000oojhj
+    [:address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [:area] => Gayamsari
+    [:description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [:image_url] => https://via.placeholder.com/300x200?text=KOV+Koffie+1
+    [:price_range] => 1
+    [:noise_level] => Quiet
+    [:avg_visit_length] => 3-5 hours
+    [:opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [:featured] => 1
+    [:menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [:website] => 
+    [:link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [:instagram] => 
+    [:amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [:tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+)
+
+[02-Jun-2025 00:21:21 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => https://via.placeholder.com/300x200?text=KOV+Koffie+1
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":"promo-1748816458183","title":"New Promotion","description":"Promotion description goes here","validUntil":"2025-07-01","icon":"laptop","bgColor":"bg-gradient-to-r from-orange-500 to-red-500"},{"id":"promo-2","title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","validUntil":"2025-05-20","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:21:21 Europe/Berlin] Executing update query with params: Array
+(
+    [:cafe_id] => 1
+    [:name] => KOV Koffiesssssssssssss000oojhj
+    [:address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [:area] => Gayamsari
+    [:description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [:image_url] => https://via.placeholder.com/300x200?text=KOV+Koffie+1
+    [:price_range] => 1
+    [:noise_level] => Quiet
+    [:avg_visit_length] => 3-5 hours
+    [:opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [:featured] => 1
+    [:menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [:website] => 
+    [:link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [:instagram] => 
+    [:amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [:tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+)
+
+[02-Jun-2025 00:42:57 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => 9.jpg
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":2,"title":"New Promotion","description":"Promotion description goes here","validUntil":"2025-07-01","icon":"laptop"},{"id":3,"title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","validUntil":"2025-05-20","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:42:57 Europe/Berlin] Processing image: Array
+(
+    [name] => 9.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\php6754.tmp
+    [error] => 0
+    [size] => 22964
+)
+
+[02-Jun-2025 00:42:57 Europe/Berlin] Invalid promotion data: Array
+(
+    [id] => 2
+    [title] => New Promotion
+    [description] => Promotion description goes here
+    [validUntil] => 2025-07-01
+    [icon] => laptop
+)
+
+[02-Jun-2025 00:42:57 Europe/Berlin] Database error: Invalid promotion data
+[02-Jun-2025 00:43:04 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => 9.jpg
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":3,"title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","validUntil":"2025-05-20","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:43:04 Europe/Berlin] Processing image: Array
+(
+    [name] => 9.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\php826F.tmp
+    [error] => 0
+    [size] => 22964
+)
+
+[02-Jun-2025 00:43:04 Europe/Berlin] Invalid promotion data: Array
+(
+    [id] => 3
+    [title] => Midnight Brew
+    [description] => Free refill on selected coffee drinks after 10 PM for night owls!
+    [validUntil] => 2025-05-20
+    [icon] => coffee
+)
+
+[02-Jun-2025 00:43:04 Europe/Berlin] Database error: Invalid promotion data
+[02-Jun-2025 00:45:23 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => https://via.placeholder.com/300x200?text=KOV+Koffie+1
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":2,"title":"New Promotion","description":"Promotion description goes here","validUntil":"2025-07-01","icon":"laptop"},{"id":3,"title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","validUntil":"2025-05-20","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:45:23 Europe/Berlin] Processing image: Array
+(
+    [name] => 9.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\phpA0BC.tmp
+    [error] => 0
+    [size] => 22964
+)
+
+[02-Jun-2025 00:45:23 Europe/Berlin] Invalid promotion data: Array
+(
+    [id] => 2
+    [title] => New Promotion
+    [description] => Promotion description goes here
+    [validUntil] => 2025-07-01
+    [icon] => laptop
+)
+
+[02-Jun-2025 00:45:23 Europe/Berlin] Database error: Invalid promotion data
+[02-Jun-2025 00:59:11 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => 
+    [deleted_image_ids] => []
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":2,"title":"New Promotion","description":"Promotion description goes here","icon":"laptop"},{"id":3,"title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","icon":"coffee"}]
+)
+
+[02-Jun-2025 00:59:11 Europe/Berlin] Processing image: Array
+(
+    [name] => 8.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\php42FE.tmp
+    [error] => 0
+    [size] => 11559
+)
+
+[02-Jun-2025 00:59:11 Europe/Berlin] Invalid promotion data: Array
+(
+    [id] => 2
+    [title] => New Promotion
+    [description] => Promotion description goes here
+    [icon] => laptop
+)
+
+[02-Jun-2025 00:59:11 Europe/Berlin] Database error: Invalid promotion data
+[02-Jun-2025 01:01:59 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => 
+    [deleted_image_ids] => []
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":2,"title":"New Promotion","description":"Promotion description goes here","icon":"laptop"},{"id":3,"title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","icon":"coffee"}]
+)
+
+[02-Jun-2025 01:01:59 Europe/Berlin] Processing image: Array
+(
+    [name] => 13.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\phpD3BC.tmp
+    [error] => 0
+    [size] => 27646
+)
+
+[02-Jun-2025 01:01:59 Europe/Berlin] Invalid promotion data: Array
+(
+    [id] => 2
+    [title] => New Promotion
+    [description] => Promotion description goes here
+    [icon] => laptop
+)
+
+[02-Jun-2025 01:01:59 Europe/Berlin] Database error: Invalid promotion data
+[02-Jun-2025 01:11:09 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => 
+    [deleted_image_ids] => []
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":3,"title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","valid_until":"2025-05-20"}]
+)
+
+[02-Jun-2025 01:11:09 Europe/Berlin] Processing image: Array
+(
+    [name] => 16.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\php3762.tmp
+    [error] => 0
+    [size] => 16940
+)
+
+[02-Jun-2025 01:11:09 Europe/Berlin] Invalid promotion data: Array
+(
+    [id] => 3
+    [title] => Midnight Brew
+    [description] => Free refill on selected coffee drinks after 10 PM for night owls!
+    [valid_until] => 2025-05-20
+)
+
+[02-Jun-2025 01:11:09 Europe/Berlin] Database error: Invalid promotion data
+[02-Jun-2025 01:11:43 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => 
+    [deleted_image_ids] => []
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":3,"title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","valid_until":"2025-05-20"}]
+)
+
+[02-Jun-2025 01:11:43 Europe/Berlin] Processing image: Array
+(
+    [name] => 16.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\phpBB96.tmp
+    [error] => 0
+    [size] => 16940
+)
+
+[02-Jun-2025 01:11:43 Europe/Berlin] Invalid promotion data: Array
+(
+    [id] => 3
+    [title] => Midnight Brew
+    [description] => Free refill on selected coffee drinks after 10 PM for night owls!
+    [valid_until] => 2025-05-20
+)
+
+[02-Jun-2025 01:11:43 Europe/Berlin] Database error: Invalid promotion data
+[02-Jun-2025 01:11:43 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => 
+    [deleted_image_ids] => []
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":3,"title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","valid_until":"2025-05-20"}]
+)
+
+[02-Jun-2025 01:11:43 Europe/Berlin] Processing image: Array
+(
+    [name] => 16.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\phpBC62.tmp
+    [error] => 0
+    [size] => 16940
+)
+
+[02-Jun-2025 01:11:43 Europe/Berlin] Invalid promotion data: Array
+(
+    [id] => 3
+    [title] => Midnight Brew
+    [description] => Free refill on selected coffee drinks after 10 PM for night owls!
+    [valid_until] => 2025-05-20
+)
+
+[02-Jun-2025 01:11:43 Europe/Berlin] Database error: Invalid promotion data
+[02-Jun-2025 01:11:43 Europe/Berlin] Received POST data: Array
+(
+    [cafe_id] => 1
+    [name] => KOV Koffiesssssssssssss000oojhj
+    [address] => Jl. Sultan Agung No.135, Kaliwiru, Kec. Candisari
+    [area] => Gayamsari
+    [description] => A 24-hour cafe with a comfortable ambiance, private meeting rooms, and WiFi, ideal for remote work and business meetings.
+    [image_url] => 
+    [deleted_image_ids] => []
+    [price_range] => 1
+    [noise_level] => Quiet
+    [avg_visit_length] => 3-5 hours
+    [opening_hours] => {"Weekdays":"24 Hour","Weekends":"24 Hour"}
+    [featured] => 1
+    [menu_link] => https://online.fliphtml5.com/eapbd/sufd/#p=1
+    [website] => 
+    [link_maps] => https://maps.app.goo.gl/hTMNSsio1qFkVmzKA
+    [instagram] => 
+    [amenities] => ["High-Speed WiFi","Power Outlets","Air Conditioning","Coffee","Snacks","Meeting Room","Outdoor Seating","sdada"]
+    [tags] => ["24 Hour","Cozy","WFC","Instagrammable"]
+    [promo] => [{"id":3,"title":"Midnight Brew","description":"Free refill on selected coffee drinks after 10 PM for night owls!","valid_until":"2025-05-20"}]
+)
+
+[02-Jun-2025 01:11:43 Europe/Berlin] Processing image: Array
+(
+    [name] => 16.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\phpBD3E.tmp
+    [error] => 0
+    [size] => 16940
+)
+
+[02-Jun-2025 01:11:43 Europe/Berlin] Invalid promotion data: Array
+(
+    [id] => 3
+    [title] => Midnight Brew
+    [description] => Free refill on selected coffee drinks after 10 PM for night owls!
+    [valid_until] => 2025-05-20
+)
+
+[02-Jun-2025 01:11:43 Europe/Berlin] Database error: Invalid promotion data
